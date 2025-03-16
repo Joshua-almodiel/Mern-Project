@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.regisContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba( 71, 147, 227, 1);
+    display: flex;
+}
+
+.regisBody {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: auto;
+    background-color: #F5F7F6;
+    padding: 45px;
+    color: #000000;
+    box-shadow: -2px 3px 3px #2d507e;
+}
+
+.regisBody .h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-right: 12rem;
+}
+
+.regisBody label {
+    line-height: 2.8;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+    padding: 0 55px;
+}
+
+.btn .regisBtn, .btn .loginBtn {
+    padding: 11px 20px;
+    font-size: .8rem;
+    border: none;
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+    margin-left: 18px;
+}
+
+.btn p {
+    font-size: 0.8rem;
+}
+
+.regisBtn {
+    background-color: #000000;
+    border: none;
+    color: #CFD8D7;
+}
+
+.regisBtn:hover {
+    transform: scale(1.1);
+}
+
+.loginBtn {
+    color: #fff;
+    border: none;
+    background-color: #4FC3A1;
+}
+
+.loginBtn:hover {
+    transform: scale(1.1);
+}
+
+.inputGroup {
+    display: block;
+}
+
+.inputFName, .inputEmail, .inputPassword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.9px 32px 2.9px 32px;
+    margin: 2px 25px 2px 55px;
+    width: 20rem;
+}
